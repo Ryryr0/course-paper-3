@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин мороженого Nicecream</title>
+    <link class="favicon" rel="icon" href="images/icons/favicon_png.png" sizes="any">
+    <link rel="stylesheet" href="css_files/main.css">
+</head>
+<body>
+    <header>
+        <!-- css -->
+        <link rel="stylesheet" href="css_files/header.css">
+        <!-- label -->
+        <div class="label-container">
+            <h3>Nicecream</h3>
+            <a href="#"><img src="images/icons/favicon_png.png" alt="lable icon"></a>
+        </div>
+        <!-- catalog button -->
+        <a href="html_files/catalog.html" class="catalog-btn">Каталог</a>
+        <!-- about us -->
+        <a href="html_files/aboutUs.html" class="about-btn">О нас</a>
+        <div class="basket-account">
+            <!-- basket -->
+            <a href="html_files/basket.html" class="basket-btn"><img src="images/icons/basket.png"></a>
+        </div>
+        <!-- hamburger menu -->
+        <div class="hamburger">
+            <input type="checkbox" id="hamburger-input" />
+            <label class="hamburger-menu" for="hamburger-input">
+                <span></span>
+            </label>
+            <ul class="hamburger-box">
+                <a href="html_files/catalog.html" class="catalog-btn">Каталог</a>
+                <a href="html_files/aboutUs.html" class="about-btn">О нас</a>
+                <div class="basket-account">
+                    <!-- basket -->
+                    <a href="html_files/basket.html" class="basket-btn"><img src="images/icons/basket.png"></a>
+                    <!-- account -->
+                    <a href="html_files/account.html" class="account-btn"><img src="images/icons/user.png"></a>
+                </div>
+            </ul>
+        </div>
+        <!-- script -->
+        <!-- <script src="../scripts/header.js"></script> -->
+    </header>
+    <main>
+        <!-- main lable -->
+        <div class="main-lable-container">
+            <h1>Nicecream</h1>
+        </div>
+        <!-- hello text -->
+        <div class="hello-text">
+            <h1>Добро пожаловать в наш магазин мороженого!</h1>
+        </div>
+        <!-- main gallery -->
+        <div class="gallery-container">
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)"><img src="images/icons/arrowR.png"></a>
+
+            <div class="gallery-item">
+                <img src="images/picters/testP1.png">
+            </div>
+            <div class="gallery-item">
+                <img src="images/picters/testP2.png">
+            </div>
+            <div class="gallery-item">
+                <img src="images/picters/testP3.png">
+            </div>
+            <div class="gallery-item">
+                <img src="images/picters/testP4.png">
+            </div>
+            <div class="gallery-item">
+                <img src="images/picters/testP5.png">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="next" onclick="plusSlides(1)"><img src="images/icons/arrowL.png"></a>  
+            <!-- script -->
+            <script src="scripts/mainGallery.js"></script>
+        </div>
+    </main>
+</body>
+</html>

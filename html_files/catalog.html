@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин мороженого Nicecream</title>
+    <link class="favicon" rel="icon" href="../images/icons/favicon_png.png" sizes="any">
+    <link rel="stylesheet" href="../css_files/catalog.css">
+</head>
+<body>
+    <header>
+        <!-- css -->
+        <link rel="stylesheet" href="../css_files/header.css">
+        <!-- label -->
+        <div class="label-container">
+            <h3>Nicecream</h3>
+            <a href="../index.html"><img src="../images/icons/favicon_png.png" alt="lable icon"></a>
+        </div>
+        <!-- catalog button -->
+        <a href="../html_files/catalog.html" class="catalog-btn">Каталог</a>
+        <!-- about us -->
+        <a href="../html_files/aboutUs.html" class="about-btn">О нас</a>
+        <div class="basket-account">
+            <!-- basket -->
+            <a href="../html_files/basket.html" class="basket-btn"><img src="../images/icons/basket.png"></a>
+        </div>
+        <!-- hamburger menu -->
+        <div class="hamburger">
+            <input type="checkbox" id="hamburger-input" />
+            <label class="hamburger-menu" for="hamburger-input">
+                <span></span>
+            </label>
+            <ul class="hamburger-box">
+                <a href="../html_files/catalog.html" class="catalog-btn">Каталог</a>
+                <a href="../html_files/aboutUs.html" class="about-btn">О нас</a>
+                <div class="basket-account">
+                    <!-- basket -->
+                    <a href="../html_files/basket.html" class="basket-btn"><img src="../images/icons/basket.png"></a>
+                    <!-- account -->
+                    <a href="../html_files/account.html" class="account-btn"><img src="../images/icons/user.png"></a>
+                </div>
+            </ul>
+        </div>
+        <!-- script -->
+        <!-- <script src="../scripts/header.js"></script> -->
+    </header>
+    <main>
+        <!-- filter -->
+        <div class="catalog-filter-container">
+                <button class="cone">Рожки</button>
+                <button class="stick">На полочке</button>
+                <button class="bucket">В пинтах</button>
+        </div>
+        <!-- catalog -->
+        <div class="catalog-container">
+            <!-- catalog cone -->
+            <div class="catalog-item cone-item">
+                <div class="img-container">
+                    <img src="../images/picters/testP3.png">
+                    <span>Мятное, малиновое, ванильное и клубничное мороженое с вишенкой на верхушке ввиде кусочка сусульного золота.</span>
+                </div>
+                <span class="item-title">Золотое мороженое</span>
+                <span class="item-price">2000 руб</span>
+                <button>Добавить</button>
+            </div>
+            <div class="catalog-item cone-item">
+                <div class="img-container">
+                    <img src="../images/picters/raspberry-cone.png">
+                    <span>Малиновое мороженое со свежими ягодами малины в хрустящем вафельном рожке.</span>
+                </div>
+                <span class="item-title">Малиновое мороженое</span>
+                <span class="item-price">250 руб</span>
+                <button>Добавить</button>
+            </div>
+            <div class="catalog-item cone-item">
+                <div class="img-container">
+                    <img src="../images/picters/mint-cone.png">
+                    <span>Вдвойне освежающее мятное мороженое со свежими листочками мяты.</span>
+                </div>
+                <span class="item-title">Мятное мороженое</span>
+                <span class="item-price">250 руб</span>
+                <button>Добавить</button>
+            </div>
+            <div class="catalog-item cone-item">
+                <div class="img-container">
+                    <img src="../images/picters/strewbery-cone.png">
+                    <span>Просто очень вкусное клубничное мороженое в хрустящем рожке.</span>
+                </div>
+                <span class="item-title">Клубничное мороженое</span>
+                <span class="item-price">250 руб</span>
+                <button>Добавить</button>
+            </div>
+            <div class="catalog-item cone-item">
+                <div class="img-container">
+                    <img src="../images/picters/orange-cone.png">
+                    <span>Апельсиновое мороженое с невероятно ярким вкусом в супер тонком, хрустящем рожке.</span>
+                </div>
+                <span class="item-title">Апельсиновый бум</span>
+                <span class="item-price">250 руб</span>
+                <button>Добавить</button>
+            </div>
+            <div class="catalog-item cone-item">
+                <div class="img-container">
+                    <img src="../images/picters/cone1.png">
+                    <span>Класическое сочетание двух вкусов мороженого, которое знают все.</span>
+                </div>
+                <span class="item-title">Классическое дуо</span>
+                <span class="item-price">250 руб</span>
+                <button>Добавить</button>
+            </div>
+            <!-- catalog stick -->
+            <div class="catalog-item stick-item">
+                <div class="img-container">
+                    <img src="../images/picters/orange-ice.png">
+                    <span>Фруктовый лед из свежевыжетого апельсинового сока.</span>
+                </div>
+                <span class="item-title">Апельсиновый лед</span>
+                <span class="item-price">100 руб</span>
+                <button>Добавить</button>
+            </div>
+            <div class="catalog-item stick-item">
+                <div class="img-container">
+                    <img src="../images/picters/strewbery-stick.png">
+                    <span>Клубничное мороженое между двух мягких вафель на палочке.</span>
+                </div>
+                <span class="item-title">Клубничная вафля</span>
+                <span class="item-price">300 руб</span>
+                <button>Добавить</button>
+            </div>
+            <!-- catalog bucket -->
+            <div class="catalog-item bucket-item">
+                <div class="img-container">
+                    <img src="../images/picters/raspberry-bucket.png">
+                    <span>Малиновое мороженое с огромным количеством сладких ягод малины.</span>
+                </div>
+                <span class="item-title">Малиновое поляна</span>
+                <span class="item-price">400 руб</span>
+                <button>Добавить</button>
+            </div>
+            <div class="catalog-item bucket-item">
+                <div class="img-container">
+                    <img src="../images/picters/mint-bucket.png">
+                    <span>Мятное мороженое с листьями мяты освежит любого.</span>
+                </div>
+                <span class="item-title">Мятный взрыв</span>
+                <span class="item-price">400 руб</span>
+                <button>Добавить</button>
+            </div>
+            <div class="catalog-item bucket-item">
+                <div class="img-container">
+                    <img src="../images/picters/lemon-bucket.png">
+                    <span>Лимонное мороженое для любителей кислого и сладкого одновременно.</span>
+                </div>
+                <span class="item-title">Лимонный бум</span>
+                <span class="item-price">400 руб</span>
+                <button>Добавить</button>
+            </div>
+            <div class="catalog-item bucket-item">
+                <div class="img-container">
+                    <img src="../images/picters/vanilla-bucket.png">
+                    <span>Классическое ванильное мороженое, знакомый для всех вкус детства.</span>
+                </div>
+                <span class="item-title">Ванильное морожено</span>
+                <span class="item-price">400 руб</span>
+                <button>Добавить</button>
+            </div>
+        </div>
+    </main>
+    <script src="../scripts/catalog.js"></script>
+</body>
+</html>

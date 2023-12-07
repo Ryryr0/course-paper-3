@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин мороженого Nicecream</title>
+    <link class="favicon" rel="icon" href="../images/icons/favicon_png.png" sizes="any">
+    <link rel="stylesheet" href="../css_files/basket.css">
+</head>
+<body>
+    <header>
+        <!-- css -->
+        <link rel="stylesheet" href="../css_files/header.css">
+        <!-- label -->
+        <div class="label-container">
+            <h3>Nicecream</h3>
+            <a href="../index.html"><img src="../images/icons/favicon_png.png" alt="lable icon"></a>
+        </div>
+        <!-- catalog button -->
+        <a href="../html_files/catalog.html" class="catalog-btn">Каталог</a>
+        <!-- about us -->
+        <a href="../html_files/aboutUs.html" class="about-btn">О нас</a>
+        <div class="basket-account">
+            <!-- basket -->
+            <a href="../html_files/basket.html" class="basket-btn"><img src="../images/icons/basket.png"></a>
+        </div>
+        <!-- hamburger menu -->
+        <div class="hamburger">
+            <input type="checkbox" id="hamburger-input" />
+            <label class="hamburger-menu" for="hamburger-input">
+                <span></span>
+            </label>
+            <ul class="hamburger-box">
+                <a href="../html_files/catalog.html" class="catalog-btn">Каталог</a>
+                <a href="../html_files/aboutUs.html" class="about-btn">О нас</a>
+                <div class="basket-account">
+                    <!-- basket -->
+                    <a href="../html_files/basket.html" class="basket-btn"><img src="../images/icons/basket.png"></a>
+                    <!-- account -->
+                    <a href="../html_files/account.html" class="account-btn"><img src="../images/icons/user.png"></a>
+                </div>
+            </ul>
+        </div>
+        <!-- script -->
+        <!-- <script src="../scripts/header.js"></script> -->
+    </header>
+    <main>
+        <div class="basket-container">
+            <div class="basket-item">
+                <div class="img-container">
+                    <img src="../images/picters/testP1.png">
+                </div>
+                <div class="info-container">
+                    <button class="del-btn"><img src="../images/icons/trash-basket.png"></button>
+                    <span class="item-title">Клубничное мороженое</span>
+                    <span class="cost">650 руб</span>
+                    <div class="counte-conteiner">
+                        <button class="minus-btn"><img src="../images/icons/minus.png"></button>
+                        <span class="counter">1</span>
+                        <button class="plus-btn"><img src="../images/icons/plus.png"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="payment-panel">
+            <div class="cheques">
+            </div>
+            <div class="sum-cost-container">
+                <span>Сумма к оплате: </span>
+                <span class="sum-cost"></span>
+            </div>
+            <a href="../html_files/payment.html"><button class="pay-btn">Оформить заказ</button></a>
+        </div>
+    </main>
+    <script src="../scripts/basket.js"></script>
+</body>
+</html>

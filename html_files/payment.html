@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин мороженого Nicecream</title>
+    <link class="favicon" rel="icon" href="../images/icons/favicon_png.png" sizes="any">
+    <link rel="stylesheet" href="../css_files/payment.css">
+</head>
+<body>
+    <header>
+        <!-- css -->
+        <link rel="stylesheet" href="../css_files/header.css">
+        <!-- label -->
+        <div class="label-container">
+            <h3>Nicecream</h3>
+            <a href="../index.html"><img src="../images/icons/favicon_png.png" alt="lable icon"></a>
+        </div>
+        <!-- catalog button -->
+        <a href="../html_files/catalog.html" class="catalog-btn">Каталог</a>
+        <!-- about us -->
+        <a href="../html_files/aboutUs.html" class="about-btn">О нас</a>
+        <div class="basket-account">
+            <!-- basket -->
+            <a href="../html_files/basket.html" class="basket-btn"><img src="../images/icons/basket.png"></a>
+        </div>
+        <!-- hamburger menu -->
+        <div class="hamburger">
+            <input type="checkbox" id="hamburger-input" />
+            <label class="hamburger-menu" for="hamburger-input">
+                <span></span>
+            </label>
+            <ul class="hamburger-box">
+                <a href="../html_files/catalog.html" class="catalog-btn">Каталог</a>
+                <a href="../html_files/aboutUs.html" class="about-btn">О нас</a>
+                <div class="basket-account">
+                    <!-- basket -->
+                    <a href="../html_files/basket.html" class="basket-btn"><img src="../images/icons/basket.png"></a>
+                    <!-- account -->
+                    <a href="../html_files/account.html" class="account-btn"><img src="../images/icons/user.png"></a>
+                </div>
+            </ul>
+        </div>
+        <!-- script -->
+        <!-- <script src="../scripts/header.js"></script> -->
+    </header>
+    <main>
+        <!-- head line account -->
+        <div class="head-line-container">
+            <span>Оформление заказа</span>
+        </div>
+        <!-- user data -->
+        <form action="" class="user-data-form">
+            <div class="form-elem">
+                <label for="first-name">Имя</label>
+                <input required type="text" name="first-name">
+            </div>
+            <div class="form-elem">
+                <label for="phon-num">Телефон</label>
+                <input required type="tel" name="phon-num">
+            </div>
+            <div class="form-elem">
+                <label for="E-mail">E-mail</label>
+                <input type="email" name="E-mail">
+            </div>
+            <div class="form-elem">
+                <label for="address">Адрес доставки</label>
+                <input required type="text" name="address">
+            </div>
+            <div class="form-elem agree">
+                <input required type="checkbox" name="agree">
+                <label for="agree">Соглашаюсь на обработку персональных данных</label>
+            </div>
+            <div class="form-elem send-btn">
+                <button type="submit">Оформить заказ</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
